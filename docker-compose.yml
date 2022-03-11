@@ -40,7 +40,6 @@ services:
     image: nebraltd/hm-miner:arm64-9564845
     depends_on:
       - dbus-session
-      - diagnostics
     expose:
       - "1680"
       - "4467"
