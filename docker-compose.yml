@@ -45,6 +45,8 @@ services:
       - "4467"
     ports:
       - "44158:44158/tcp"
+      - "4467:4467/tcp"
+      - "1680:1680/udp"
     volumes:
       - miner-storage:/var/data
       - miner-log:/var/log/miner
